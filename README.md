@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ThePeerReviews/seenit/blob/master/seenit/seenit.gif" />
+  <img src="https://github.com/worldviewer/seen-it/blob/master/seenit/seenit.gif" />
 </p>
 
 # Seen-It
@@ -42,19 +42,19 @@ At this point, the site is ready!
 * The first script was like ...
 
 <p align="center">
-  <img src="https://github.com/ThePeerReviews/seenit/blob/master/seenit/stuck.gif" />
+  <img src="https://github.com/worldviewer/seen-it/blob/master/seenit/stuck.gif" />
 </p>
 
  Then, a day later, the second Nokogiri script was done in 5 minutes flat ...
 
 <p align="center">
-  <img src="https://github.com/ThePeerReviews/seenit/blob/master/seenit/programming.gif" />
+  <img src="https://github.com/worldviewer/seen-it/blob/master/seenit/programming.gif" />
 </p>
 
  And I was like ...
 
 <p align="center">
-  <img src="https://github.com/ThePeerReviews/seenit/blob/master/seenit/winning.gif" />
+  <img src="https://github.com/worldviewer/seen-it/blob/master/seenit/winning.gif" />
 </p>
 
 * It's generally best to simulate a web browser agent; Ruby is not a web browser, and companies will block your scraper
