@@ -1,0 +1,102 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.context {
+  padding: 10px;
+}
+
+.highlight {
+  background-color: #CCE6FF;
+}
+
+body {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 245px;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 25px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+
+
+.profile-pic{
+  height:200px;
+  width:200px;
+  position:relative;    
+  border-radius:100%;
+  overflow:hidden;
+}
+.profile-pic img{
+  position:absolute;
+  left:-50%; right:-50%; top:0;
+  margin:auto;
+  height:100%; width:auto;
+}
+
+.profile-title, .edit_picture, .new_picture {
+  text-align: center;
+}
+
+.edit_picture {
+  margin-top: 20px;
+}
+
+#picture_file {
+  margin: 0 auto;
+}
+ 
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 12px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
